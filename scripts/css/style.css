@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,500&subset=latin,vietnamese,latin-ext');
+span.click-more,span.click-add {
+    display: inline-block;
+    background: #1FCE45;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.form-group {
+    position: relative;
+}
+
+span.glyphicon.glyphicon-remove {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #e00;
+    color: #fff;
+    display: inline-block;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 34px;
+    width: 35px;
+    top: 23px;
+    border-radius: 4px;
+}
+.input-muti span {
+    display: none!important;
+}
+.list-input span {
+    display: block!important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px!important;
+    padding: 6px 12px!important;
+    font-size: 14px;
+    line-height: 1.42857143!important;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.info-plugin {
+    background: #fff;
+    padding: 15px;
+    font-family: Roboto;
+    border: 1px solid #ededed;
+}
+
+.info-plugin h2 {
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info-plugin p {
+    font-size: 14px;
+}
+.alignleft button {
+    border-radius: 3px;
+    border: 0px;
+    background: #00a0d2;
+    color: #fff;
+    font-family: Roboto;
+    text-transform: uppercase;
+    padding: 8px 10px;
+}
+.clear {
+    clear: both;
+}
+.cmt {
+    border: 1px solid #d2d2d2;
+    background: #fff;
+    margin-right: 17px;
+}
+.info-setting {
+    margin-top: 17px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ededed;
+}
+.info-setting p label {
+    position: relative;
+    top: 4px;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.input-hk {
+    position: relative;
+}
+
+.input-hk span {
+    top: 0px!important;
+}
+.option-list .input-hk span {
+    display: none!important;
+}
+p.kiki {
+    font-family: Roboto;
+    font-size: 14px;
+}
+.info-setting .alignleft {
+    text-align: right!important;
+    float: inherit;
+}
